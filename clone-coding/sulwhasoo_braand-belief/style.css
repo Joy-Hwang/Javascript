@@ -1,0 +1,1564 @@
+@charset "UTF-8"; 
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+}
+li {
+    list-style: none;
+}
+.belief2023 {
+    font-family: Theinhardt,NotoSans,"Malgun Gothic","맑은 고딕","Nanum Gothic","나눔 고딕","돋움",dotum,sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.belief2023 .pc-only {
+    display: block
+}
+
+.belief2023 .ta-only {
+    display: none
+}
+
+.belief2023 .mo-only {
+    display: none
+}
+
+.belief2023 .bold {
+    font-weight: 800
+}
+
+.belief2023 sup {
+    font-size: 100%;
+    line-height: 0;
+    position: relative;
+    top: .35em
+}
+
+.belief2023 p {
+    margin: 0
+}
+
+.belief2023 .text-wrap {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.belief2023 .belief2023-image, .belief2023 .belief2023-video {
+    width: 100%;
+    margin: auto;
+    display: block
+}
+
+.belief2023 .belief2023-image img, .belief2023 .belief2023-video img {
+    max-width: 100%;
+    margin-top: -1px
+}
+
+.belief2023 .belief2023-image video, .belief2023 .belief2023-video video {
+    width: 100%
+}
+
+.belief2023-section {
+    position: relative;
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+    line-height: 1
+}
+
+.belief2023-section--01 {
+    color: #fff;
+    background: url(https://amc.apglobal.com/image/384224417642/image_bq9h0bpvml61pfhi733jlndh0f/-FJPG/brand_belief_visual_img_pc_kr_230511.jpg) no-repeat center;
+    background-size: cover;
+    padding-bottom: 161px
+}
+
+.belief2023-section--01 .belief2023-title {
+    font-size: 56px;
+    letter-spacing: .07em;
+    line-height: 1.25;
+    padding-top: 162px;
+    opacity: 0
+}
+
+.belief2023-section--01 .belief2023-title::after {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 70px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 48px
+}
+
+.belief2023-section--01 .has--word-spacing {
+    word-spacing: .27em
+}
+
+.belief2023-section--01 .belief2023-text-wrap {
+    opacity: 0
+}
+
+.belief2023-section--01 .belief2023-subtitle {
+    font-size: 40px;
+    letter-spacing: .05em;
+    margin-top: 69px
+}
+
+.belief2023-section--01 .belief2023-text--m {
+    font-size: 30px;
+    letter-spacing: -.02em;
+    font-weight: 800;
+    margin-top: 42px
+}
+
+.belief2023-section--01 .belief2023-text--s {
+    font-size: 20px;
+    letter-spacing: -.02em;
+    line-height: 1.5;
+    margin-top: 24px
+}
+
+.belief2023-section--01 .has-style {
+    display: block
+}
+
+.belief2023-section--01 .has-style--marin-top {
+    margin-top: 14px
+}
+
+.belief2023 .navigation-wrap {
+    position: relative
+}
+
+.belief2023 .navigation-box {
+    max-width: 1920px;
+    margin: 0 auto
+}
+
+.belief2023 .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    z-index: 100;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px
+}
+
+.belief2023 .fixed {
+    position: fixed;
+    top: 0;
+    z-index: 50
+}
+
+.belief2023 .navigation__item {
+    width: 240px;
+    font-size: 16px;
+    letter-spacing: .05em;
+    font-weight: 700;
+    color: #171717;
+    border-top: 1px solid #d1d1d1;
+    border-top-width: 1px;
+    padding-top: 19px;
+    padding-bottom: 16px;
+    transition: all .1s;
+    cursor: pointer
+}
+
+.belief2023 .change {
+    /* color: #fff; */
+    border-top: 1px solid #5c5c5c;
+    transition: all .1s
+}
+
+.belief2023 .active {
+    color: #e86e25;
+    transition: all .1s
+}
+
+.belief2023-section--common-layout .belief2023-section__inner {
+    max-width: 1920px;
+    margin: 0 auto
+}
+
+.belief2023-section--common-layout .belief2023-section__body {
+    text-align: left;
+    margin-right: 240px;
+    margin-left: 574px
+}
+
+.belief2023-section--common-layout .belief2023-text--l {
+    font-size: 70px;
+    letter-spacing: .05em;
+    color: #171717;
+    margin-top: 128px
+}
+
+.belief2023-section--common-layout .belief2023-text--s {
+    font-size: 18px;
+    letter-spacing: -.02em;
+    line-height: 1.6666666667;
+    color: #171717;
+    margin-top: 18px;
+    margin-left: 5px
+}
+
+.belief2023-section--common-layout .belief2023-image {
+    width: 1100px;
+    margin-top: 53px;
+    margin-left: 6px
+}
+
+.belief2023-section--mid .belief2023-text-wrap {
+    opacity: 0
+}
+
+.belief2023-section--mid .scroll-img {
+    opacity: 0
+}
+
+.belief2023-section--mid .swiper-container {
+    opacity: 0
+}
+
+.belief2023 .belief2023-text--l {
+    font-size: 70px;
+    letter-spacing: .05em;
+    color: #171717;
+    margin-top: 128px
+}
+
+.belief2023-section--belief .belief2023-text--l {
+    padding-top: 128px;
+    margin-top: 0
+}
+
+.belief2023-section--ingredient {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.belief2023-section--ingredient .belief2023-text--l {
+    margin-top: 70px
+}
+
+.belief2023-section--innovation {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.belief2023-section--innovation .belief2023-text--l {
+    margin-top: 69px
+}
+
+.belief2023-section--created {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.belief2023-section--created .belief2023-text--l {
+    margin-top: 69px
+}
+
+.belief2023-section--created .swiper-list {
+    margin-top: 52px;
+    margin-left: 6px;
+    display: flex
+}
+
+.belief2023-section--created .swiper-list__item {
+    width: 344px
+}
+
+.belief2023-section--created .swiper-list__item:not(:last-child) {
+    margin-right: 34px
+}
+
+.belief2023-section--joureny {
+    position: relative;
+    width: 100%;
+    margin-top: 260px;
+    background-color: #333
+}
+
+.belief2023-section--joureny .sticky {
+    min-height: 100vh
+}
+
+.belief2023-section--joureny .belief2023-section__contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%
+}
+
+.belief2023-section--joureny .belief2023-section__header {
+    text-align: left;
+    margin-right: 240px;
+    margin-left: 574px
+}
+
+.belief2023-section--joureny .belief2023-text--l {
+    color: #fff;
+    margin-top: 0
+}
+
+.belief2023-section--joureny .horizontal-scroll {
+    overflow: hidden
+}
+
+.belief2023-section--joureny .belief2023-section__body {
+    margin-right: 0;
+    margin-left: 0
+}
+
+.belief2023-section--joureny .belief2023-section__body::before {
+    content: "";
+    display: block;
+    width: 617px;
+    height: 100%;
+    background-image: url(https://amc.apglobal.com/image/384224417642/image_j63lk3qthd5f19oc8nvjlamg5o/-FPNG/brand_belief_journey_item_pc_kr_230511.png);
+    background-position: left top;
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    margin-left: 0
+}
+
+.belief2023-section--joureny .belief2023-text--year {
+    font-size: 60px;
+    color: #fff;
+    letter-spacing: 0;
+    font-weight: 700
+}
+
+.belief2023-section--joureny .belief2023-text--m {
+    font-size: 30px;
+    letter-spacing: -.02em;
+    color: #fff;
+    font-weight: 800;
+    margin-top: 17px
+}
+
+.belief2023-section--joureny .belief2023-text--s {
+    font-size: 20px;
+    letter-spacing: -.02em;
+    color: #fff;
+    margin-left: 0;
+    margin-top: 3px
+}
+
+.belief2023-section--joureny .belief2023-image {
+    margin-left: 0
+}
+
+.belief2023-section--joureny .text-wrap {
+    position: relative;
+    top: auto;
+    bottom: 0;
+    width: 100%
+}
+
+.belief2023-section--joureny .swiper-list {
+    will-change: transform;
+    display: flex;
+    margin-left: 7px;
+    padding-bottom: 100px
+}
+
+.belief2023-section--joureny .swiper-list__item {
+    position: relative;
+    width: auto;
+    flex: 0 0 auto;
+    height: 615px;
+    padding-right: 90px
+}
+
+.belief2023-section--joureny .swiper-list__item--01 .belief2023-image {
+    width: 270px;
+    padding-left: 573px;
+    margin-top: 203px
+}
+
+.belief2023-section--joureny .swiper-list__item--01 .text-wrap {
+    left: auto;
+    right: 0;
+    left: 753px;
+    top: -33px
+}
+
+.belief2023-section--joureny .swiper-list__item--02 {
+    text-align: right
+}
+
+.belief2023-section--joureny .swiper-list__item--02 .belief2023-image {
+    width: 290px
+}
+
+.belief2023-section--joureny .swiper-list__item--02 .text-wrap {
+    width: 100%;
+    left: auto;
+    right: 0;
+    top: 28px
+}
+
+.belief2023-section--joureny .swiper-list__item--03 .belief2023-image {
+    width: 360px;
+    margin-top: 253px
+}
+
+.belief2023-section--joureny .swiper-list__item--03 .text-wrap {
+    top: -22px;
+    left: 91px
+}
+
+.belief2023-section--joureny .swiper-list__item--04 .belief2023-image {
+    width: 440px;
+    margin-top: 134px
+}
+
+.belief2023-section--joureny .swiper-list__item--04 .text-wrap {
+    top: 28px
+}
+
+.belief2023-section--joureny .swiper-list__item--05 .belief2023-image {
+    width: 270px;
+    margin-top: 183px
+}
+
+.belief2023-section--joureny .swiper-list__item--05 .text-wrap {
+    top: 28px
+}
+
+.belief2023-section--joureny .swiper-list__item--06 .belief2023-image {
+    width: 360px;
+    margin-top: 63px
+}
+
+.belief2023-section--joureny .swiper-list__item--06 .text-wrap {
+    top: -22px;
+    left: 60px
+}
+
+.belief2023-section--joureny .swiper-list__item--07 {
+    padding-right: 450px
+}
+
+.belief2023-section--joureny .swiper-list__item--07 .belief2023-image {
+    width: 270px;
+    margin-top: 123px
+}
+
+.belief2023-section--joureny .swiper-list__item--07 .text-wrap {
+    top: -73px;
+    left: 222px
+}
+
+.belief2023-section--joureny .indicator {
+    background: #5c5c5c;
+    margin-left: 580px;
+    margin-top: 40px;
+    width: 1100px;
+    height: 4px
+}
+
+.belief2023-section--joureny .indicator__bar {
+    background: #fff;
+    height: 4px
+}
+
+@keyframes textright {
+    0% {
+        transform: translateX(50%)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
+
+@keyframes textleft {
+    0% {
+        transform: translateX(-50%)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
+
+@media (max-width: 1920px) and (min-device-aspect-ratio:1920/1080) {
+    .belief2023 .belief2023-section--joureny .belief2023-text--l {
+        font-size:6.4815vh
+    }
+
+    .belief2023 .belief2023-section--joureny .belief2023-section__header {
+        margin-right: 22.2222222222vh;
+        margin-left: 53.1481481481vh
+    }
+
+    .belief2023 .belief2023-section--joureny .belief2023-section__body::before {
+        width: 57.1296296296vh
+    }
+
+    .belief2023 .belief2023-section--joureny .belief2023-text--year {
+        font-size: 5.5555555556vh
+    }
+
+    .belief2023 .belief2023-section--joureny .belief2023-text--m {
+        font-size: 2.7777777778vh;
+        margin-top: 1.5740740741vh
+    }
+
+    .belief2023 .belief2023-section--joureny .belief2023-text--s {
+        font-size: 1.8518518519vh;
+        margin-top: .2777777778vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list {
+        margin-left: .6481481481vh;
+        padding-bottom: 9.2592592593vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item {
+        height: 56.9444444444vh;
+        padding-right: 8.3333333333vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--01 .belief2023-image {
+        width: 25vh;
+        padding-left: 53.0555555556vh;
+        margin-top: 18.7962962963vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--01 .text-wrap {
+        left: 69.7222222222vh;
+        top: -3.0555555556vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--02 .belief2023-image {
+        width: 26.8518518519vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--02 .text-wrap {
+        top: 2.5925925926vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--03 .belief2023-image {
+        width: 33.3333333333vh;
+        margin-top: 23.4259259259vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--03 .text-wrap {
+        top: -2.037037037vh;
+        left: 8.4259259259vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--04 .belief2023-image {
+        width: 40.7407407407vh;
+        margin-top: 12.4074074074vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--04 .text-wrap {
+        top: 2.5925925926vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--05 .belief2023-image {
+        width: 25vh;
+        margin-top: 16.9444444444vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--05 .text-wrap {
+        top: 2.5925925926vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--06 .belief2023-image {
+        width: 33.3333333333vh;
+        margin-top: 5.8333333333vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--06 .text-wrap {
+        top: -2.037037037vh;
+        left: 5.5555555556vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--07 {
+        padding-right: 41.6666666667vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--07 .belief2023-image {
+        width: 25vh;
+        margin-top: 11.3888888889vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--07 .text-wrap {
+        top: -6.7592592593vh;
+        left: 20.5555555556vh
+    }
+
+    .belief2023 .belief2023-section--joureny .indicator {
+        margin-left: 53.7037037037vh;
+        margin-top: 3.7037037037vh;
+        height: .3703703704vh
+    }
+
+    .belief2023 .belief2023-section--joureny .indicator__bar {
+        height: .3703703704vh
+    }
+}
+
+@media (max-width: 1920px) {
+    .belief2023-section--01 {
+        padding-bottom:8.3854166667vw
+    }
+
+    .belief2023-section--01 .belief2023-title {
+        font-size: 2.9166666667vw;
+        font-size: max(11px,2.9166666667vw)
+    }
+
+    .belief2023-section--01 .belief2023-title {
+        padding-top: 8.4375vw
+    }
+
+    .belief2023-section--01 .belief2023-title::after {
+        width: .15625vw
+    }
+
+    .belief2023-section--01 .belief2023-title::after {
+        height: 3.6458333333vw
+    }
+
+    .belief2023-section--01 .belief2023-title::after {
+        margin-top: 2.5vw
+    }
+
+    .belief2023-section--01 .belief2023-subtitle {
+        font-size: 2.0833333333vw;
+        font-size: max(11px,2.0833333333vw)
+    }
+
+    .belief2023-section--01 .belief2023-subtitle {
+        margin-top: 3.59375vw
+    }
+
+    .belief2023-section--01 .belief2023-text--m {
+        font-size: 1.5625vw;
+        font-size: max(11px,1.5625vw)
+    }
+
+    .belief2023-section--01 .belief2023-text--m {
+        margin-top: 2.1875vw
+    }
+
+    .belief2023-section--01 .belief2023-text--s {
+        font-size: 1.0416666667vw;
+        font-size: max(11px,1.0416666667vw)
+    }
+
+    .belief2023-section--01 .belief2023-text--s {
+        margin-top: 1.25vw
+    }
+
+    .belief2023-section--01 .has-style--marin-top {
+        margin-top: .7291666667vw
+    }
+
+    .belief2023 .navigation {
+        margin-top: 3.125vw
+    }
+
+    .belief2023 .navigation {
+        margin-left: 3.125vw
+    }
+
+    .belief2023 .navigation {
+        margin-right: 3.125vw
+    }
+
+    .belief2023 .navigation__item {
+        width: 12.5vw
+    }
+
+    .belief2023 .navigation__item {
+        font-size: .8333333333vw;
+        font-size: max(11px,.8333333333vw)
+    }
+
+    .belief2023 .navigation__item {
+        border-top-width: .0520833333vw
+    }
+
+    .belief2023 .navigation__item {
+        padding-top: .9895833333vw
+    }
+
+    .belief2023 .navigation__item {
+        padding-bottom: .8333333333vw
+    }
+
+    .belief2023-section--common-layout .belief2023-section__body {
+        margin-right: 12.5vw
+    }
+
+    .belief2023-section--common-layout .belief2023-section__body {
+        margin-left: 29.8958333333vw
+    }
+
+    .belief2023-section--common-layout .belief2023-text--l {
+        font-size: 3.6458333333vw;
+        font-size: max(11px,3.6458333333vw)
+    }
+
+    .belief2023-section--common-layout .belief2023-text--l {
+        margin-top: 6.6666666667vw
+    }
+
+    .belief2023-section--common-layout .belief2023-text--s {
+        font-size: .9375vw;
+        font-size: max(11px,.9375vw)
+    }
+
+    .belief2023-section--common-layout .belief2023-text--s {
+        margin-top: .9375vw
+    }
+
+    .belief2023-section--common-layout .belief2023-text--s {
+        margin-left: .2604166667vw
+    }
+
+    .belief2023-section--common-layout .belief2023-image {
+        width: 57.2916666667vw
+    }
+
+    .belief2023-section--common-layout .belief2023-image {
+        margin-top: 2.7604166667vw
+    }
+
+    .belief2023-section--common-layout .belief2023-image {
+        margin-left: .3125vw
+    }
+
+    .belief2023 .belief2023-text--l {
+        font-size: 3.6458333333vw;
+        font-size: max(11px,3.6458333333vw)
+    }
+
+    .belief2023 .belief2023-text--l {
+        margin-top: 6.6666666667vw
+    }
+
+    .belief2023-section--belief .belief2023-text--l {
+        padding-top: 6.6666666667vw
+    }
+
+    .belief2023-section--belief .belief2023-text--l {
+        margin-top: 0
+    }
+
+    .belief2023-section--ingredient {
+        padding-top: 2.6041666667vw
+    }
+
+    .belief2023-section--ingredient {
+        padding-bottom: 2.6041666667vw
+    }
+
+    .belief2023-section--ingredient .belief2023-text--l {
+        margin-top: 3.6458333333vw
+    }
+
+    .belief2023-section--innovation {
+        padding-top: 2.6041666667vw
+    }
+
+    .belief2023-section--innovation {
+        padding-bottom: 2.6041666667vw
+    }
+
+    .belief2023-section--innovation .belief2023-text--l {
+        margin-top: 3.59375vw
+    }
+
+    .belief2023-section--created {
+        padding-top: 2.6041666667vw
+    }
+
+    .belief2023-section--created {
+        padding-bottom: 2.6041666667vw
+    }
+
+    .belief2023-section--created .belief2023-text--l {
+        margin-top: 3.59375vw
+    }
+
+    .belief2023-section--created .swiper-list {
+        margin-top: 2.7083333333vw
+    }
+
+    .belief2023-section--created .swiper-list {
+        margin-left: .3125vw
+    }
+
+    .belief2023-section--created .swiper-list__item {
+        width: 17.9166666667vw
+    }
+
+    .belief2023-section--created .swiper-list__item:not(:last-child) {
+        margin-right: 1.7708333333vw
+    }
+
+    .belief2023-section--joureny {
+        margin-top: 13.5416666667vw
+    }
+
+    .belief2023-section--joureny .belief2023-section__header {
+        margin-right: 12.5vw
+    }
+
+    .belief2023-section--joureny .belief2023-section__header {
+        margin-left: 29.8958333333vw
+    }
+
+    .belief2023-section--joureny .belief2023-text--l {
+        margin-top: 0
+    }
+
+    .belief2023-section--joureny .belief2023-section__body {
+        margin-right: 0
+    }
+
+    .belief2023-section--joureny .belief2023-section__body {
+        margin-left: 0
+    }
+
+    .belief2023-section--joureny .belief2023-section__body::before {
+        width: 32.1354166667vw
+    }
+
+    .belief2023-section--joureny .belief2023-section__body::before {
+        margin-left: 0
+    }
+
+    .belief2023-section--joureny .belief2023-text--year {
+        font-size: 3.125vw;
+        font-size: max(11px,3.125vw)
+    }
+
+    .belief2023-section--joureny .belief2023-text--m {
+        font-size: 1.5625vw;
+        font-size: max(11px,1.5625vw)
+    }
+
+    .belief2023-section--joureny .belief2023-text--m {
+        margin-top: .8854166667vw
+    }
+
+    .belief2023-section--joureny .belief2023-text--s {
+        font-size: 1.0416666667vw;
+        font-size: max(11px,1.0416666667vw)
+    }
+
+    .belief2023-section--joureny .belief2023-text--s {
+        margin-left: 0
+    }
+
+    .belief2023-section--joureny .belief2023-text--s {
+        margin-top: .15625vw
+    }
+
+    .belief2023-section--joureny .belief2023-image {
+        margin-left: 0
+    }
+
+    .belief2023-section--joureny .swiper-list {
+        margin-left: .3645833333vw
+    }
+
+    .belief2023-section--joureny .swiper-list {
+        padding-bottom: 5.2083333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item {
+        height: 32.03125vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item {
+        padding-right: 4.6875vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--01 .belief2023-image {
+        width: 14.0625vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--01 .belief2023-image {
+        padding-left: 29.84375vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--01 .belief2023-image {
+        margin-top: 10.5729166667vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--01 .text-wrap {
+        left: 39.21875vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--01 .text-wrap {
+        top: -1.71875vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--02 .belief2023-image {
+        width: 15.1041666667vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--02 .text-wrap {
+        top: 1.4583333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--03 .belief2023-image {
+        width: 18.75vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--03 .belief2023-image {
+        margin-top: 13.1770833333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--03 .text-wrap {
+        top: -1.1458333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--03 .text-wrap {
+        left: 4.7395833333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--04 .belief2023-image {
+        width: 22.9166666667vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--04 .belief2023-image {
+        margin-top: 6.9791666667vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--04 .text-wrap {
+        top: 1.4583333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--05 .belief2023-image {
+        width: 14.0625vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--05 .belief2023-image {
+        margin-top: 9.53125vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--05 .text-wrap {
+        top: 1.4583333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--06 .belief2023-image {
+        width: 18.75vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--06 .belief2023-image {
+        margin-top: 3.28125vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--06 .text-wrap {
+        top: -1.1458333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--06 .text-wrap {
+        left: 3.125vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--07 {
+        padding-right: 23.4375vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--07 .belief2023-image {
+        width: 14.0625vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--07 .belief2023-image {
+        margin-top: 6.40625vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--07 .text-wrap {
+        top: -3.8020833333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--07 .text-wrap {
+        left: 11.5625vw
+    }
+
+    .belief2023-section--joureny .indicator {
+        margin-left: 30.2083333333vw
+    }
+
+    .belief2023-section--joureny .indicator {
+        margin-top: 2.0833333333vw
+    }
+
+    .belief2023-section--joureny .indicator {
+        width: 57.2916666667vw
+    }
+
+    .belief2023-section--joureny .indicator {
+        height: .2083333333vw
+    }
+
+    .belief2023-section--joureny .indicator__bar {
+        height: .2083333333vw
+    }
+}
+
+@media (max-width: 750px) and (min-device-aspect-ratio:750/1331) {
+    .belief2023 .belief2023-section--common-layout.belief2023-section--joureny .belief2023-text--l {
+        font-size:6.4815vh
+    }
+
+    .belief2023 .belief2023-section--joureny .belief2023-section__header {
+        margin-right: 2.5544703231vh;
+        margin-left: 2.5544703231vh
+    }
+
+    .belief2023 .belief2023-section--joureny .belief2023-text--year {
+        font-size: 5.860255447vh
+    }
+
+    .belief2023 .belief2023-section--joureny .belief2023-text--m {
+        font-size: 2.8549962434vh;
+        margin-top: 1.5026296018vh
+    }
+
+    .belief2023 .belief2023-section--joureny .belief2023-text--s {
+        font-size: 1.9534184823vh;
+        margin-top: .3005259204vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item {
+        height: 65.4395191585vh;
+        margin-left: 3.0052592036vh;
+        padding-right: 5.2592036063vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--01 .belief2023-image {
+        width: 26.5965439519vh;
+        margin-top: 18.9331329827vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--01 .text-wrap {
+        left: 17.7310293013vh;
+        top: -3.1555221638vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--02 .belief2023-image {
+        width: 28.5499624343vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--02 .text-wrap {
+        top: 2.6296018032vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--03 .belief2023-image {
+        width: 35.4620586026vh;
+        margin-top: 24.192336589vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--03 .text-wrap {
+        top: -1.8031555222vh;
+        left: 9.3163035312vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--04 .belief2023-image {
+        width: 43.4259954921vh;
+        margin-top: 10.2178812923vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--04 .text-wrap {
+        top: 2.7798647633vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--05 .belief2023-image {
+        width: 26.5965439519vh;
+        margin-top: 14.9511645379vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--05 .text-wrap {
+        top: 3.0803906837vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--06 .belief2023-image {
+        width: 35.4620586026vh;
+        margin-top: 5.9353869271vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--06 .text-wrap {
+        top: -2.4042073629vh;
+        left: 7.2126220887vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--07 .belief2023-image {
+        width: 26.5965439519vh;
+        margin-top: 16.5289256198vh
+    }
+
+    .belief2023 .belief2023-section--joureny .swiper-list__item--07 .text-wrap {
+        top: -6.8369646882vh;
+        left: 22.0886551465vh
+    }
+
+    .belief2023 .belief2023-section--joureny .indicator {
+        margin-left: 3.0052592036vh;
+        margin-top: 3.0052592036vh;
+        height: .4507888805vh
+    }
+
+    .belief2023 .belief2023-section--joureny .indicator__bar {
+        height: .4507888805vh
+    }
+}
+
+@media (max-width: 750px) {
+    .belief2023 .pc-only {
+        display:none
+    }
+
+    .belief2023 .mo-only {
+        display: inline-block
+    }
+
+    .belief2023 .belief2023-image img, .belief2023 .belief2023-video img {
+        width: 100%
+    }
+
+    .belief2023-section--01 {
+        padding-bottom: 37.6vw
+    }
+
+    .belief2023-section--01 {
+        background: url(https://amc.apglobal.com/image/384224417642/image_bunbamti2p6lp8emggkkobc327/-FJPG/brand_belief_visual_img_mo_kr_230511.jpg) no-repeat center;
+        background-size: cover
+    }
+
+    .belief2023-section--01 .belief2023-title {
+        font-size: 5.3333333333vw;
+        font-size: max(11px,5.3333333333vw)
+    }
+
+    .belief2023-section--01 .belief2023-title {
+        padding-top: 32.6666666667vw
+    }
+
+    .belief2023-section--01 .belief2023-title {
+        line-height: 1.25
+    }
+
+    .belief2023-section--01 .belief2023-title::after {
+        width: .5333333333vw
+    }
+
+    .belief2023-section--01 .belief2023-title::after {
+        height: 9.3333333333vw
+    }
+
+    .belief2023-section--01 .belief2023-title::after {
+        margin-top: 10vw
+    }
+
+    .belief2023-section--01 .belief2023-subtitle {
+        font-size: 5.8666666667vw;
+        font-size: max(11px,5.8666666667vw)
+    }
+
+    .belief2023-section--01 .belief2023-subtitle {
+        margin-top: 11.6vw
+    }
+
+    .belief2023-section--01 .belief2023-text--m {
+        font-size: 4.2666666667vw;
+        font-size: max(11px,4.2666666667vw)
+    }
+
+    .belief2023-section--01 .belief2023-text--m {
+        margin-top: 5.4666666667vw
+    }
+
+    .belief2023-section--01 .belief2023-text--s {
+        font-size: 3.4666666667vw;
+        font-size: max(11px,3.4666666667vw)
+    }
+
+    .belief2023-section--01 .belief2023-text--s {
+        margin-top: 4.2666666667vw
+    }
+
+    .belief2023-section--01 .belief2023-text--s {
+        line-height: 1.4615384615
+    }
+
+    .belief2023-section--01 .has-style--marin-top {
+        margin-top: 1.8666666667vw
+    }
+
+    .belief2023 .navigation {
+        display: none
+    }
+
+    .belief2023 .navigation__item {
+        border-top-width: .1333333333vw
+    }
+
+    .belief2023-section--common-layout .belief2023-section__body {
+        margin-right: 4.5333333333vw
+    }
+
+    .belief2023-section--common-layout .belief2023-section__body {
+        margin-left: 4.5333333333vw
+    }
+
+    .belief2023-section--common-layout .belief2023-text--l {
+        font-size: 9.8666666667vw;
+        font-size: max(11px,9.8666666667vw)
+    }
+
+    .belief2023-section--common-layout .belief2023-text--l {
+        margin-top: 31.4666666667vw
+    }
+
+    .belief2023-section--common-layout .belief2023-text--s {
+        font-size: 3.2vw;
+        font-size: max(11px,3.2vw)
+    }
+
+    .belief2023-section--common-layout .belief2023-text--s {
+        margin-top: 3.6vw
+    }
+
+    .belief2023-section--common-layout .belief2023-text--s {
+        margin-left: .8vw
+    }
+
+    .belief2023-section--common-layout .belief2023-text--s {
+        line-height: 1.634
+    }
+
+    .belief2023-section--common-layout .belief2023-text--s .has--mo-margin {
+        display: block;
+        margin-top: 1.775147929%
+    }
+
+    .belief2023-section--common-layout .belief2023-image {
+        width: 89.3333333333vw
+    }
+
+    .belief2023-section--common-layout .belief2023-image {
+        margin-top: 8.8vw
+    }
+
+    .belief2023-section--common-layout .belief2023-image {
+        margin-left: .8vw
+    }
+
+    .belief2023 .belief2023-text--l {
+        font-size: 9.8666666667vw;
+        font-size: max(11px,9.8666666667vw)
+    }
+
+    .belief2023 .belief2023-text--l {
+        margin-top: 31.4666666667vw
+    }
+
+    .belief2023-section--belief .belief2023-text--l {
+        padding-top: 31.4666666667vw
+    }
+
+    .belief2023-section--belief .belief2023-text--l {
+        margin-top: 0
+    }
+
+    .belief2023-section--ingredient {
+        padding-top: 6.6666666667vw
+    }
+
+    .belief2023-section--ingredient {
+        padding-bottom: 6.6666666667vw
+    }
+
+    .belief2023-section--ingredient .belief2023-text--l {
+        margin-top: 6.8vw
+    }
+
+    .belief2023-section--innovation {
+        padding-top: 6.6666666667vw
+    }
+
+    .belief2023-section--innovation {
+        padding-bottom: 6.6666666667vw
+    }
+
+    .belief2023-section--innovation .belief2023-text--l {
+        margin-top: 6.2666666667vw
+    }
+
+    .belief2023-section--innovation .belief2023-text--s {
+        line-height: 1.622
+    }
+
+    .belief2023-section--innovation .belief2023-image {
+        margin-top: 9.3333333333vw
+    }
+
+    .belief2023-section--created {
+        padding-top: 6.6666666667vw
+    }
+
+    .belief2023-section--created {
+        padding-bottom: 6.6666666667vw
+    }
+
+    .belief2023-section--created .belief2023-section__body {
+        margin-right: 0
+    }
+
+    .belief2023-section--created .belief2023-text--l {
+        margin-top: 5.3333333333vw
+    }
+
+    .belief2023-section--created .belief2023-text--l {
+        line-height: 1.1891891892
+    }
+
+    .belief2023-section--created .belief2023-text--s {
+        margin-top: 2.8vw
+    }
+
+    .belief2023-section--created .swiper-list {
+        margin-top: 8.8vw
+    }
+
+    .belief2023-section--created .swiper-list {
+        margin-left: .8vw
+    }
+
+    .belief2023-section--created .swiper-list__item {
+        width: 61.3333333333vw
+    }
+
+    .belief2023-section--created .swiper-list__item:not(:last-child) {
+        margin-right: 4vw
+    }
+
+    .belief2023-section--created .swiper-list__item:last-child {
+        margin-right: 4.5333333333vw
+    }
+
+    .belief2023-section--joureny {
+        margin-top: 32vw
+    }
+
+    .belief2023-section--joureny .belief2023-section__header {
+        margin-right: 4.5333333333vw
+    }
+
+    .belief2023-section--joureny .belief2023-section__header {
+        margin-left: 4.5333333333vw
+    }
+
+    .belief2023-section--joureny .belief2023-text--l {
+        margin-top: 0
+    }
+
+    .belief2023-section--joureny .belief2023-section__body {
+        margin-right: 0
+    }
+
+    .belief2023-section--joureny .belief2023-section__body {
+        margin-left: 0
+    }
+
+    .belief2023-section--joureny .belief2023-section__body::before {
+        content: none
+    }
+
+    .belief2023-section--joureny .belief2023-text--year {
+        font-size: 10.4vw;
+        font-size: max(11px,10.4vw)
+    }
+
+    .belief2023-section--joureny .belief2023-text--m {
+        font-size: 5.0666666667vw;
+        font-size: max(11px,5.0666666667vw)
+    }
+
+    .belief2023-section--joureny .belief2023-text--m {
+        margin-top: 2.6666666667vw
+    }
+
+    .belief2023-section--joureny .belief2023-text--s {
+        font-size: 3.4666666667vw;
+        font-size: max(11px,3.4666666667vw)
+    }
+
+    .belief2023-section--joureny .belief2023-text--s {
+        margin-left: 0
+    }
+
+    .belief2023-section--joureny .belief2023-text--s {
+        margin-top: .5333333333vw
+    }
+
+    .belief2023-section--joureny .belief2023-image {
+        margin-left: 0
+    }
+
+    .belief2023-section--joureny .swiper-list {
+        margin-left: 0
+    }
+
+    .belief2023-section--joureny .swiper-list__item {
+        height: 116.1333333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item {
+        margin-left: 5.3333333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item {
+        padding-right: 9.3333333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--01 .belief2023-image {
+        width: 47.2vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--01 .belief2023-image {
+        padding-left: 0
+    }
+
+    .belief2023-section--joureny .swiper-list__item--01 .belief2023-image {
+        margin-top: 33.6vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--01 .text-wrap {
+        left: 31.4666666667vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--01 .text-wrap {
+        top: -5.6vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--02 .belief2023-image {
+        width: 50.6666666667vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--02 .text-wrap {
+        top: 4.6666666667vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--03 .belief2023-image {
+        width: 62.9333333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--03 .belief2023-image {
+        margin-top: 42.9333333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--03 .text-wrap {
+        top: -3.2vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--03 .text-wrap {
+        left: 16.5333333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--04 .belief2023-image {
+        width: 77.0666666667vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--04 .belief2023-image {
+        margin-top: 18.1333333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--04 .text-wrap {
+        top: 4.9333333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--05 .belief2023-image {
+        width: 47.2vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--05 .belief2023-image {
+        margin-top: 26.5333333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--05 .text-wrap {
+        top: 5.4666666667vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--06 .belief2023-image {
+        width: 62.9333333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--06 .belief2023-image {
+        margin-top: 10.5333333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--06 .text-wrap {
+        top: -4.2666666667vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--06 .text-wrap {
+        left: 12.8vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--07 {
+        padding-right: 0
+    }
+
+    .belief2023-section--joureny .swiper-list__item--07 .belief2023-image {
+        width: 47.2vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--07 .belief2023-image {
+        margin-top: 29.3333333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--07 .text-wrap {
+        top: -12.1333333333vw
+    }
+
+    .belief2023-section--joureny .swiper-list__item--07 .text-wrap {
+        left: 39.2vw
+    }
+
+    .belief2023-section--joureny .indicator {
+        margin-left: 5.3333333333vw
+    }
+
+    .belief2023-section--joureny .indicator {
+        margin-top: 5.3333333333vw
+    }
+
+    .belief2023-section--joureny .indicator {
+        width: 89.3333333333vw
+    }
+
+    .belief2023-section--joureny .indicator {
+        height: .8vw
+    }
+
+    .belief2023-section--joureny .indicator__bar {
+        height: .8vw
+    }
+}
